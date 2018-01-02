@@ -9,32 +9,47 @@
 </head>
 <body>
 	<header>
-	<div class="tableros">
-	<i class="fa fa-trello" aria-hidden="true"></i>
-	<p>Tableros</p>
-	</div>
-	<div class="lupita">
-	<i class="fa fa-search" aria-hidden="true"></i>
-	</div>
-	<div class="logo1">
-	<img src="assets/img/header-logo.png">
-	</div>
-	<div class="plus">
-		<i class="fa fa-plus-square" aria-hidden="true"></i>
-	</div>
-	<div class="information">
-		<i class="fa fa-info-circle" aria-hidden="true"></i>
-	</div>
-	<div class="bell">
-		<i class="fa fa-bell" aria-hidden="true"></i>
-	</div>
+		<div class="tableros">
+			<i class="fa fa-trello" aria-hidden="true"></i>
+			<p>Tableros</p>
+		</div>
+		<div class="lens">
+			<i class="fa fa-search" aria-hidden="true"></i>
+		</div>
+		<div class="logo1">
+			<img src="assets/img/header-logo.png">
+		</div>
+		<div class="plus">
+			<i class="fa fa-plus-square" aria-hidden="true"></i>
+		</div>
+		<div class="information">
+			<i class="fa fa-info-circle" aria-hidden="true"></i>
+		</div>
+		<div class="bell">
+			<i class="fa fa-bell" aria-hidden="true"></i>
+		</div>
 	</header>
-	<h2>Tablero-Reto de Código</h2>
+	<section class="section">
+		<div class="icons">
+		<a href="#"><h3 class="board">Tablero - Retos de Código</h3></a>
+		<a href="#"><i class="fa fa-start-o" aria-hidden="true"></i></a>	
+		<a href="#"><i class="fa fa-lock" aria-hidden="true">privado</i></a>
+		</div>
+		<div class="icon">
+			<a href="#"><i class="fa-fa-ellipsis-h " aria-hidden="true"></i>Mostrar Menú</a>
+		</div>
+	</section>
+	<section class="secondSection">
+		<div class="schedule">
 
-	<div id="contenedor">
-		<button id="btnAdd">Agregar</button>
-		
-	</div>
+			<input type="text" class="add" placeholder="agregar una lista...">
+		</div>
+		<form id="draft" class="hide">
+			<input type="text" id="list" placeholder="agregar lista"></input>
+			<button type="button" id="makeList">Guardar</button>
+			<a href="#" id="period"> <i class="fa fa-times" aria-hidden="true"></i></a>
+		</form>
+	</section>
 	<script type="text/javascript" src="assets/js/app.js"></script>
 </body>
 </html>
