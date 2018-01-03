@@ -1,9 +1,4 @@
-//crear, dar atributos y clases a un imput
-//crear, dar atributos y clases a un boton
-//crear un div contenedor de nuestras tareas
-//crear un titulo donde guardaremos no que ingrese el usuario
-//crear un <a> que dija añadir tarjeta
-//al dar click en a crear un textarea
+
 
 var mainBtn = document.getElementById("mainBtn");
 
@@ -27,16 +22,16 @@ mainBtn.addEventListener("click", function(){
 	var btn_save = document.getElementById("guardar");
 	btn_save.addEventListener("click", function(){
 	var container_user = document.createElement("div");
-	var title_user = document.createElement("h5");
+	var title_user = document.createElement("h3");
 	var text_title_user = document.createTextNode(input.value);
 	title_user.appendChild(text_title_user);
 	container_user.appendChild(title_user);
 	container.appendChild(container_user);
 
-		//cree mi <a> para luego darle atributos
+
 	var link = document.createElement('a');
 	link.setAttribute("href", "#");
-	var text_link = document.createTextNode('Añade una tarjeta....');
+	var text_link = document.createTextNode('Añade una tarjeta');
 	link.appendChild(text_link);
 	container_user.appendChild(link);
 
