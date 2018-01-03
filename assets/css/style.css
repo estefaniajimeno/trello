@@ -1,14 +1,37 @@
 *{
 	padding: 0px;
-	margin:0px;
-}
-body{
-	background-color: #1E90FF;
+	margin: 0px;
 }
 header{
 	background: #0040ff;
 }
+body{
+	background-color: #1E90FF;
+}
+#mainBtn{
+background: #66b3ff;
+	border: 1px solid #66b3ff;
+	border-radius: 3px;
+	font-family: sans-serif;
+	font-size: 14px;
+	color:white;
+	float: left;
+	width: 100px;
+	height: 30px;
+	margin-left: 10px;
+	margin-top: 12px;
+}
+.input_principal{
+	margin-top:10em;
+	padding-left: 20em;
+	border-radius: 4px;
+	background:white;
+	border-style: none;
+	height: 25px;
+	width: 20px;
+	margin-left: 10px;
 
+}
 .tableros{
 	background: #66b3ff;
 	border: 1px solid #66b3ff;
@@ -20,7 +43,6 @@ header{
 	height: 30px;
 	margin-left: 10px;
 	margin-top: 12px;
-	
 }
 .tableros i, .tableros p{
 	display: inline-block;
@@ -29,6 +51,81 @@ header{
 	color: white;
 	padding-top: 6px;
 	
+}
+.lupita{
+ 	background: #66b3ff;
+ 	border:1px solid #66b3ff;
+ 	border-radius: 3px;
+ 	width: 160px;
+ 	height: 30px;
+ 	margin-left: 40px;
+ 	display: inline-block;
+ 	margin-top: 12px;
+ 	float: left;
+ }
+ .lupita i{
+ 	display: inline-block;
+ 	padding-left: 120px;
+ 	color: white;
+ 	padding-top: 6px;
+ }
+ .logo1 {
+ 	display: inline-block;
+ 	margin-top: 12px;
+ 	margin-left: 250px;
+ }
+ .plus{
+ 	display: inline-block;
+ 	position: relative;
+ 	left: 620px;
+ 	color: white;
+ 	background: #66b3ff;
+ }
+ .information{
+ 	display: inline-block;
+ 	position: relative;
+ 	left: 630px;
+ 	color: white;
+ 	background: #66b3ff;
+ }
+ .bell{
+ 	display: inline-block;
+ 	position: relative;
+ 	left: 640px;
+ 	color: white;
+ 	background: #66b3ff;
+ }
+ h2{
+ 	color: white;
+ 	position: relative;
+ 	top: 20px;
+ }
+ #seccion1{
+ 	position: relative;
+ 	top: 20px;
+ 	background: grey;
+ 	display: inline-block;
+ 	width: 230px;
+ 	height:150px;
+ 	padding-left: 40px;
+ 	margin-left: 20px;
+ 	
+ }
+ #addList{
+ 	padding-top: 30px;
+ 	padding-left: 20px;
+ 	font-family: sans-serif;
+ 	font-size: 13px;
+ }
+ #input{
+ 	height: 50px;
+ 	width:180px;
+ 	padding-left: 20px;
+ }
+ .button{
+ 	padding-left: 30px;
+ 	border-radius: 4px;
+ 	background:blue;
 }
 .lens{
 	background: #66b3ff;
@@ -79,6 +176,8 @@ h2{
 	top: 20px;
 }
 
+
+
 #btnAdd{
 	margin-top:30px;
 	padding-left: 20px;
@@ -89,3 +188,43 @@ h2{
 	width: 100px;
 	margin-left: 10px;
 }
+.card{
+	color: #000;
+	display: block;
+	background: #d4d5d8;
+	padding: 3%;
+}
+
+.col{
+	margin-left: 1%;
+	width: 22%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.add{
+	display: inline-block;
+	padding: 3%;
+	margin: 3%;
+	border-radius: 5px;
+	border-style: none;
+	background: #5aac44;
+}
+
+.text{
+	display:inline-block;
+	margin: 3%;
+	width: 90%;
+	resize: none;
+}
+
+.section{
+	margin-bottom: 2em;
+	border-radius: 5px;
+	background-color: #e2e4e6;
+}
+
+
+
+/*
+
